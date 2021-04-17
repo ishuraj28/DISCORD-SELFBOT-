@@ -851,7 +851,7 @@ async def help(ctx, category=None):
     if category is None:
         embed = discord.Embed(color=0xFF633B, timestamp=ctx.message.created_at)
         embed.set_author(
-            name="𝗟𝗘𝗚𝗜𝗧 𝗦𝗘𝗟𝗙 𝗕𝗢𝗧| 𝙋𝙍𝙀𝙁𝙄𝙓: " + str(Exeter.command_prefix),
+            name="𝐈𝐍𝐅𝐄𝐑𝐍𝐎-𝐎𝐏 𝐒𝐄𝐋𝐅 𝐁𝐎𝐓| 𝙋𝙍𝙀𝙁𝙄𝙓: " + str(Exeter.command_prefix),
             icon_url=Exeter.user.avatar_url),
         embed.set_thumbnail(url=Exeter.user.avatar_url)
         embed.set_image(
